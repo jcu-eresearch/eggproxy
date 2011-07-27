@@ -3,7 +3,7 @@ eggs_directory = ${buildout:directory}/var/cache
 index = http://pypi.python.org/simple
 
 # Update information for files older than 24h
-update_interval = 24
+update_interval = 12
 # Port number where proxy will run
 port = 8888
 # always_refresh is off by default. Setting it to 1 forces eggproxy to
